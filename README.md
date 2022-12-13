@@ -2,6 +2,9 @@
 Implementations for Memformer and MemBART
 
 
+
+
+
 ```
 @inproceedings{DBLP:conf/ijcnlp/WuLQGGY22,
   author    = {Qingyang Wu and
@@ -19,6 +22,24 @@ Implementations for Memformer and MemBART
   url       = {https://aclanthology.org/2022.findings-aacl.29},
   timestamp = {Tue, 29 Nov 2022 14:53:03 +0100},
   biburl    = {https://dblp.org/rec/conf/ijcnlp/WuLQGGY22.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
+
+```
+@article{DBLP:journals/corr/abs-2209-07634,
+  author    = {Qingyang Wu and
+               Zhou Yu},
+  title     = {Stateful Memory-Augmented Transformers for Dialogue Modeling},
+  journal   = {CoRR},
+  volume    = {abs/2209.07634},
+  year      = {2022},
+  url       = {https://doi.org/10.48550/arXiv.2209.07634},
+  doi       = {10.48550/arXiv.2209.07634},
+  eprinttype = {arXiv},
+  eprint    = {2209.07634},
+  timestamp = {Tue, 27 Sep 2022 16:29:43 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2209-07634.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
