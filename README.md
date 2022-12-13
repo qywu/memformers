@@ -4,7 +4,7 @@ Implementations for Memformer and MemBART
 
 
 
-
+Memformer: A Memory-Augmented Transformer for Sequence Modeling
 ```
 @inproceedings{DBLP:conf/ijcnlp/WuLQGGY22,
   author    = {Qingyang Wu and
@@ -26,6 +26,7 @@ Implementations for Memformer and MemBART
 }
 ```
 
+Stateful Memory-Augmented Transformers for Dialogue Modeling
 ```
 @article{DBLP:journals/corr/abs-2209-07634,
   author    = {Qingyang Wu and
