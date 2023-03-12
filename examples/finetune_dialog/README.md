@@ -3,9 +3,9 @@
 This example code shows how to fine-tune MemBart for dialogue data.
 
 First, the dialogue data needs to be processed into the format like `data/msc_dialog_samples.json`. 
-Each dialogue needs to 
+The below shows the example.
 
-```json
+```python
 {
     "dialog_1": [
         {
