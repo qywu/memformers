@@ -3,7 +3,7 @@
 Memformers utilize a external dynamic memory to store history information. 
 This repo contains implementation of the pre-trained model MemBART and its training code.
 
-Check the repo [memformers](https://github.com/qywu/memformers) fpr details.
+Check the repo [memformers](https://github.com/qywu/memformers) for details.
 
 ## Install
 
