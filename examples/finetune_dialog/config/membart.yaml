@@ -1,0 +1,14 @@
+subconfigs:
+    # Specify the training configuration based on the file
+    # See ./configs/training
+    - training: train_128_large.yaml
+flylogger:
+    run:
+        # Specify the output directory
+        # ./outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+        dir: ./outputs/${task.name}
+task:
+    name: membart-${task.max_seq_length}
+    model_name_or_path: qywu/membart-large
+    # the maximum length of the history context
+    max_seq_length: 128

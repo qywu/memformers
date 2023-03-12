@@ -1,0 +1,25 @@
+training:
+    random_seed: 123
+    fp16: True
+    num_gpus_per_node: 1
+    gradient_accumulation_batches: 1
+    batch_size: 2
+    num_batch_chunks: 1
+    time_horizon: 7
+    time_overlap: 0
+    resume:
+        enabled: False
+    optimization:
+        optimizer_name: AdamW
+        learning_rate: 7e-6
+        weight_decay: 0.01
+        max_gradient_norm: -1
+    scheduler:
+        eta_min: 1e-9
+        warmup_steps: 300
+    evaluation:
+        batch_size: 16
+        save_top_k_models: 3
+    total_num:
+        epochs: 4
+        update_steps: -1 # disabled when total_num.epochs < 0
